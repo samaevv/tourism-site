@@ -11,6 +11,24 @@ body.dark {
     color: #eee;
 }
 
+body.dark header {
+    background: #023e5f;
+}
+
+body.dark footer {
+    background: #023e5f;
+}
+
+body.dark .card {
+    background: #333;
+    color: white;
+}
+
+body.dark .why-item {
+    background: #333;
+    color: white;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -97,6 +115,7 @@ section {
 
 .card {
     background: white;
+    color: #222;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 6px gray;
@@ -115,7 +134,6 @@ section {
 
 .card h3, .card p {
     padding: 0 10px;
-    color: #222;
 }
 
 .hidden {

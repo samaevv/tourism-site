@@ -25,12 +25,23 @@ themeBtn.addEventListener("click", function () {
 
 const moreBtn = document.getElementById("moreBtn");
 
+let opened = false;
+
 moreBtn.addEventListener("click", function () {
     const cards = document.querySelectorAll(".hidden");
-    for (let i = 0; i < cards.length; i++) {
-        cards[i].style.display = "block";
+    if (opened === false) {
+        for (let i = 0; i < cards.length; i++) {
+            cards[i].style.display = "block";
+        }
+        moreBtn.textContent = "Показати менше";
+        opened = true;
+    } else {
+        for (let i = 0; i < cards.length; i++) {
+            cards[i].style.display = "none";
+        }
+        moreBtn.textContent = "Показати більше напрямків";
+        opened = false;
     }
-    moreBtn.style.display = "none";
 });
 
 const chooseBtn = document.getElementById("chooseBtn");
