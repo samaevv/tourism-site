@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Туристична агенція</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Мандрівка</div>
+        <button id="menuBtn" class="menu-btn">Меню</button>
+        <nav id="menu">
+            <a href="#hero">Головна</a>
+            <a href="#places">Напрямки</a>
+            <a href="#why">Чому ми</a>
+            <a href="#contacts">Контакти</a>
+            <button id="closeBtn" class="close-btn">Закрити</button>
+        </nav>
+        <button id="themeBtn">Темна тема</button>
+    </header>
+
+    <section id="hero" class="hero">
+        <h1>Відкрий світ разом з нами</h1>
+        <p>Найкращі тури за найкращими цінами</p>
+        <button id="chooseBtn">Обрати подорож</button>
+        <p id="counter">Натискань: 0</p>
+    </section>
+
+    <section id="places">
+        <h2>Популярні напрямки</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="https://picsum.photos/id/1015/400/250" alt="Гори">
+                <h3>Карпати</h3>
+                <p>Гори, свіже повітря і відпочинок.</p>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/id/1018/400/250" alt="Озеро">
+                <h3>Швейцарія</h3>
+                <p>Альпи та чисті озера.</p>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/id/1039/400/250" alt="Водоспад">
+                <h3>Ісландія</h3>
+                <p>Водоспади та північне сяйво.</p>
+            </div>
+            <div class="card hidden">
+                <img src="https://picsum.photos/id/1011/400/250" alt="Річка">
+                <h3>Норвегія</h3>
+                <p>Красива природа.</p>
+            </div>
+            <div class="card hidden">
+                <img src="https://picsum.photos/id/1043/400/250" alt="Узбережжя">
+                <h3>Греція</h3>
+                <p>Тепле море і сонце.</p>
+            </div>
+            <div class="card hidden">
+                <img src="https://picsum.photos/id/1036/400/250" alt="Зима">
+                <h3>Фінляндія</h3>
+                <p>Сніг, ліси і казкова зима.</p>
+            </div>
+        </div>
+        <button id="moreBtn">Показати більше напрямків</button>
+    </section>
+
+    <section id="why">
+        <h2>Чому обирають нас</h2>
+        <div class="why-box">
+            <div class="why-item">
+                <h3>Низькі ціни</h3>
+                <p>Ми шукаємо найкращі пропозиції.</p>
+            </div>
+            <div class="why-item">
+                <h3>Безпека</h3>
+                <p>Усі тури перевірені.</p>
+            </div>
+            <div class="why-item">
+                <h3>Підтримка 24/7</h3>
+                <p>Ми завжди на звʼязку.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts">
+        <h2>Контакти</h2>
+        <p>Телефон: +380 67 676 76 76</p>
+        <p>Email: 67@mandrivka.ua</p>
+        <p>Адреса: м. Луцьк, вул. 67, 67</p>
+    </section>
+
+    <footer>
+        <p>© 6767 Мандрівка. Усі права захищені.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
